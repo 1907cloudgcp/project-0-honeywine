@@ -1,10 +1,16 @@
-#!/usr/bin/env python3
+'''
+This is the main testing script.
+'''
+## imports
+import sys, os
+os.chdir(sys.path[0] + "/../../../../main/python/com/revature")
 
-'''
-This is your main testing script, this should call several other testing scripts on its own
-'''
 def main():
-	print('TO-DO')
+	"""
+	Calls pytest from main folder.
+	"""
+	os.system('pytest .')
+
 
 if __name__ == '__main__':
 	main()
