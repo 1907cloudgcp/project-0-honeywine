@@ -1,0 +1,5 @@
+
+2019-08-11 12:32:11,515 - errorLogger - ERROR - bank_io.load_profile::KeyError
+2019-08-11 18:02:54,565 - errorLogger - CRITICAL - bank_io.register::attempted to register existent user
+2019-08-13 06:07:19,009 - errorLogger - ERROR - bank_io.load_profile::KeyError
+2019-08-13 06:07:19,009 - errorLogger - ERROR - bank_io.load_profile::KeyError

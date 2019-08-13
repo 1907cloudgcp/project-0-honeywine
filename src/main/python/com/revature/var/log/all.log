@@ -1,0 +1,70 @@
+
+2019-08-11 10:45:01,581 - defaultLogger - DEBUG - bank_io.load_profile
+2019-08-11 10:45:05,518 - defaultLogger - DEBUG - bank_io.save_profile
+2019-08-11 10:45:08,557 - defaultLogger - DEBUG - bank_io.save_profile
+2019-08-11 10:45:21,822 - defaultLogger - DEBUG - bank_io.load_profile
+2019-08-11 10:49:28,298 - defaultLogger - DEBUG - bank_io.load_profile
+2019-08-11 10:49:32,405 - defaultLogger - DEBUG - bank_io.save_profile::Jack::0::[('2019-08-11 10:30:02.593496', 50), ('2019-08-11 10:49:32.405024', -50)]
+2019-08-11 10:49:37,186 - defaultLogger - DEBUG - bank_io.save_profile::Jack::44::[('2019-08-11 10:30:02.593496', 50), ('2019-08-11 10:49:32.405024', -50), ('2019-08-11 10:49:37.186794', 44)]
+2019-08-11 10:56:17,118 - defaultLogger - DEBUG - bank_io.userlist
+2019-08-11 10:56:27,987 - defaultLogger - DEBUG - bank_io.register::registering {'username': 'Yveltel', 'password': 'Feathers', 'balance': 70, 'transactions': [('2019-08-11 10:56:27.987264', 70)]}
+2019-08-11 10:56:27,988 - defaultLogger - DEBUG - bank_io.register::registering {'username': 'Yveltel', 'password': b'}\xdcP\xd56\xfd\xf8\xc1\xf4\x8e\xff\x88T\x7f\xc5\x01+\xb1:\xcc*~\x04\x99\x8ej\x0e]\xba\xf4\xc2>', 'balance': 70, 'transactions': [('2019-08-11 10:56:27.987264', 70)]}
+2019-08-11 10:56:38,204 - defaultLogger - DEBUG - bank_io.load_profile
+2019-08-11 10:56:44,354 - defaultLogger - DEBUG - bank_io.save_profile::Yveltel::50::[('2019-08-11 10:56:27.987264', 70), ('2019-08-11 10:56:44.354013', -20)]
+2019-08-11 10:56:52,470 - defaultLogger - DEBUG - bank_io.save_profile::Yveltel::80::[('2019-08-11 10:56:27.987264', 70), ('2019-08-11 10:56:44.354013', -20), ('2019-08-11 10:56:52.470383', 30)]
+2019-08-11 11:02:34,717 - defaultLogger - DEBUG - bank_io.load_profile
+2019-08-11 11:02:44,397 - defaultLogger - DEBUG - bank_io.save_profile
+2019-08-11 11:02:44,399 - defaultLogger - DEBUG - bank_io.save_profile::{'username': 'Yveltel', 'password': b'}\xdcP\xd56\xfd\xf8\xc1\xf4\x8e\xff\x88T\x7f\xc5\x01+\xb1:\xcc*~\x04\x99\x8ej\x0e]\xba\xf4\xc2>', 'balance': 70, 'transactions': [('2019-08-11 10:56:27.987264', 70)]}
+2019-08-11 11:02:55,617 - defaultLogger - DEBUG - bank_io.load_profile
+2019-08-11 11:07:20,639 - defaultLogger - DEBUG - bank_io.load_profile
+2019-08-11 11:07:25,865 - defaultLogger - DEBUG - bank_io.save_profile
+2019-08-11 11:07:25,867 - defaultLogger - DEBUG - bank_io.save_profile::{'username': 'Yveltel', 'password': b'}\xdcP\xd56\xfd\xf8\xc1\xf4\x8e\xff\x88T\x7f\xc5\x01+\xb1:\xcc*~\x04\x99\x8ej\x0e]\xba\xf4\xc2>', 'balance': 70, 'transactions': [('2019-08-11 10:56:27.987264', 70)]}
+2019-08-11 11:07:25,867 - defaultLogger - DEBUG - bank_io.save_profile::<shelve.DbfilenameShelf object at 0x7ff10f1b4a20>
+2019-08-11 11:07:37,311 - defaultLogger - DEBUG - bank_io.load_profile
+
+2019-08-11 11:49:13,170 - defaultLogger - DEBUG - bank_io.userlist::accessing userlist
+2019-08-11 11:49:20,345 - defaultLogger - DEBUG - bank_io.register::registering {'username': 'Jack', 'password': b'\xc0gp\xb5\x81C\xdc\xc9\x8a)\xc4\xfb\x17\t9i\t\xe0\x10}\xefm6\xbfP2QT;\xd0Pm', 'balance': 60, 'transactions': [('2019-08-11 11:49:20.344798', 60)]}
+2019-08-11 11:49:23,585 - defaultLogger - DEBUG - bank_io.load_profile::loading profile info for Jack
+2019-08-11 11:49:28,374 - defaultLogger - DEBUG - bank_io.save_profile::saving profile info for Jack
+2019-08-11 11:49:35,514 - defaultLogger - DEBUG - bank_io.save_profile::saving profile info for Jack
+2019-08-11 11:49:49,204 - defaultLogger - DEBUG - bank_io.save_profile::saving profile info for Jack
+2019-08-11 11:50:02,225 - defaultLogger - DEBUG - bank_io.save_profile::saving profile info for Jack
+2019-08-11 11:50:12,696 - defaultLogger - DEBUG - bank_io.load_profile::loading profile info for Jack
+2019-08-11 11:52:54,630 - defaultLogger - DEBUG - bank_io.load_profile::loading profile info for Jack
+2019-08-11 11:53:03,602 - defaultLogger - DEBUG - bank_io.save_profile::saving profile info for Jack
+2019-08-11 12:32:24,148 - defaultLogger - DEBUG - bank_io.userlist::accessing userlist
+2019-08-11 12:32:32,404 - defaultLogger - DEBUG - bank_io.register::registering {'username': 'Yveltel', 'password': b'}\xdcP\xd56\xfd\xf8\xc1\xf4\x8e\xff\x88T\x7f\xc5\x01+\xb1:\xcc*~\x04\x99\x8ej\x0e]\xba\xf4\xc2>', 'balance': 600, 'transactions': [('2019-08-11 12:32:32.403652', 600)]}
+2019-08-11 12:32:43,341 - defaultLogger - DEBUG - bank_io.load_profile::password failed for Yveltel
+2019-08-11 12:32:47,834 - defaultLogger - DEBUG - bank_io.load_profile::loading profile info for Yveltel
+2019-08-11 12:33:09,378 - defaultLogger - DEBUG - bank_io.save_profile::saving profile info for Yveltel
+2019-08-11 12:36:56,784 - defaultLogger - DEBUG - bank_io.load_profile::loading profile info for Yveltel
+2019-08-11 12:37:10,235 - defaultLogger - DEBUG - bank_io.save_profile::saving profile info for Yveltel
+2019-08-11 12:37:13,440 - defaultLogger - DEBUG - bank_io.save_profile::saving profile info for Yveltel
+2019-08-11 12:37:20,749 - defaultLogger - DEBUG - bank_io.save_profile::saving profile info for Yveltel
+2019-08-11 12:37:29,068 - defaultLogger - DEBUG - bank_io.save_profile::saving profile info for Yveltel
+2019-08-11 12:37:41,765 - defaultLogger - DEBUG - bank_io.load_profile::loading profile info for Yveltel
+2019-08-11 12:44:10,895 - defaultLogger - DEBUG - bank_io.load_profile::loading profile info for Jack
+2019-08-11 12:44:15,494 - defaultLogger - DEBUG - bank_io.save_profile::saving profile info for Jack
+2019-08-11 17:50:34,966 - defaultLogger - DEBUG - bank_io.register::registering {'username': 'narrow', 'password': b'3\x08\xc0\xbfU\xda\xe52\x1c|f\xc5R\xc5\xfe\xc4\x99\xab<\x07\xefA\xd8J\xec\x92\x0c\xed?\xca5\xbf', 'balance': 100, 'transactions': [('2019-08-11 17:50:34.920011', 100)]}
+2019-08-11 17:50:34,995 - defaultLogger - DEBUG - bank_io.load_profile::loading profile info for narrow
+2019-08-11 17:50:34,995 - defaultLogger - DEBUG - bank_io.save_profile::saving profile info for narrow
+2019-08-11 17:50:34,996 - defaultLogger - DEBUG - bank_io.load_profile::loading profile info for narrow
+2019-08-11 17:50:34,996 - defaultLogger - DEBUG - bank_io.save_profile::saving profile info for narrow
+2019-08-11 17:50:34,997 - defaultLogger - DEBUG - bank_io.load_profile::loading profile info for narrow
+2019-08-11 17:50:34,997 - defaultLogger - DEBUG - bank_io.save_profile::saving profile info for narrow
+2019-08-11 18:02:54,524 - defaultLogger - DEBUG - bank_io.register::registering {'username': 'irrSPh2zlZbUXKrTsGbihAQduxB7hNuE', 'password': b'3\x08\xc0\xbfU\xda\xe52\x1c|f\xc5R\xc5\xfe\xc4\x99\xab<\x07\xefA\xd8J\xec\x92\x0c\xed?\xca5\xbf', 'balance': 100, 'transactions': [('2019-08-11 18:02:54.486653', 100)]}
+2019-08-11 18:02:54,564 - defaultLogger - DEBUG - bank_io.load_profile::loading profile info for irrSPh2zlZbUXKrTsGbihAQduxB7hNuE
+2019-08-11 18:02:54,584 - defaultLogger - DEBUG - bank_io.save_profile::saving profile info for irrSPh2zlZbUXKrTsGbihAQduxB7hNuE
+2019-08-11 18:02:54,584 - defaultLogger - DEBUG - bank_io.load_profile::loading profile info for irrSPh2zlZbUXKrTsGbihAQduxB7hNuE
+2019-08-11 18:02:54,585 - defaultLogger - DEBUG - bank_io.save_profile::saving profile info for irrSPh2zlZbUXKrTsGbihAQduxB7hNuE
+2019-08-11 18:02:54,585 - defaultLogger - DEBUG - bank_io.load_profile::loading profile info for irrSPh2zlZbUXKrTsGbihAQduxB7hNuE
+2019-08-11 18:02:54,586 - defaultLogger - DEBUG - bank_io.save_profile::saving profile info for irrSPh2zlZbUXKrTsGbihAQduxB7hNuE
+2019-08-13 06:07:19,026 - defaultLogger - DEBUG - bank.load_profile::Username does not exist
+2019-08-13 06:07:23,812 - defaultLogger - DEBUG - bank_io.load_profile::loading profile info for Jack
+2019-08-13 06:07:38,856 - defaultLogger - DEBUG - bank_io.save_profile::saving profile info for Jack
+2019-08-13 06:07:42,304 - defaultLogger - DEBUG - bank_io.save_profile::saving profile info for Jack
+2019-08-13 06:08:10,381 - defaultLogger - DEBUG - bank_io.userlist::accessing userlist
+2019-08-13 06:08:22,055 - defaultLogger - DEBUG - bank_io.register::registering {'username': 'Ulrich', 'password': b'\xd9m\x14\xf5VN\xeb5Qx9[\x04\xcd\xb9p\xc3\xdc\x8d\x01\xf5M\x1bz\xdf\x02\x88\x82\x04W\x89\x9c', 'balance': 0, 'transactions': [('2019-08-13 06:08:22.054390', 0)]}
+2019-08-13 06:08:28,972 - defaultLogger - DEBUG - bank_io.load_profile::loading profile info for Ulrich
+2019-08-13 06:08:34,963 - defaultLogger - DEBUG - bank_io.save_profile::saving profile info for Ulrich
+2019-08-13 06:08:43,673 - defaultLogger - DEBUG - bank_io.load_profile::loading profile info for Jack
