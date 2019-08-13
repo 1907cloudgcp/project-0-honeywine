@@ -1,0 +1,61 @@
+version: 1
+disable_existing_loggers: False
+formatters:
+    simple:
+        format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+handlers:
+    console:
+        class: logging.StreamHandler
+        level: DEBUG
+        formatter: simple
+        stream: ext://sys.stdout
+    all:
+        class: logging.handlers.RotatingFileHandler
+        level: DEBUG
+        formatter: simple
+        filename: var/log/all.log
+        maxBytes: 10485760
+    info:
+        class: logging.handlers.RotatingFileHandler
+        level: INFO
+        formatter: simple
+        filename: var/log/info.log
+        maxBytes: 10485760
+    warnings:
+        class: logging.handlers.RotatingFileHandler
+        level: WARNING
+        formatter: simple
+        filename: var/log/error.log
+        maxBytes: 10485760
+    errors:
+        class: logging.handlers.RotatingFileHandler
+        level: ERROR
+        formatter: simple
+        filename: var/log/error.log
+        maxBytes: 10485760
+    test:
+        class: logging.handlers.RotatingFileHandler
+        level: DEBUG
+        formatter: simple
+        filename: var/log/test.log
+        maxBytes: 10485760
+loggers:
+    defaultLogger:
+        level: DEBUG
+        handlers: [all]
+        propagate: no
+    infoLogger:
+        level: INFO
+        handlers: [info]
+        propogate: no
+    errorLogger:
+        level: ERROR
+        handlers: [warnings, errors]
+        propogate: no
+    testLogger:
+        level: DEBUG
+        handlers: [test]
+root:
+    ## Change this value only to change your whole application top logging LEVEL
+    level: DEBUG
+    handlers: []
